@@ -19,8 +19,8 @@ class fluentd::params {
   $user_groups = ['adm']
   # repo params
   $repo_gpgcheck = true
-  $repo_gpgkey = 'http://packages.treasure-data.com/GPG-KEY-td-agent'
-  $repo_gpgkeyid = 'C901622B5EC4AF820C38AB861093DB45A12E206F'
+  $repo_gpgkey = 'https://packages.treasuredata.com/GPG-KEY-td-agent'
+  $repo_gpgkeyid = 'BEE682289B2217F45AF4CC3F901F9177AB97ACBE'
   $repo_name = 'treasuredata'
   $repo_desc = 'TreasureData'
 
